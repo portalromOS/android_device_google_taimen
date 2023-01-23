@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
 
-# Inherit some common Lineage stuff.
+# Inherit some common portal stuff.
 $(call inherit-product, vendor/portalrom/config/common_full_phone.mk)
 
 # Inherit device configuration
