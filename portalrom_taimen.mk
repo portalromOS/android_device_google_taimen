@@ -8,7 +8,7 @@ $(call inherit-product, vendor/portalrom/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
--include device/google/taimen/device-lineage.mk
+-include device/google/taimen/device-portalrom.mk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := portalrom_taimen

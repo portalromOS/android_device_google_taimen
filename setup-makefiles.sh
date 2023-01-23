@@ -1,7 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2023 The PortalRom Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -30,8 +29,8 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 # Warning headers and guards
 write_headers
 
-write_makefiles "${MY_DIR}/lineage-proprietary-files.txt" true
-write_makefiles "${MY_DIR}/lineage-proprietary-files-vendor.txt" true
+write_makefiles "${MY_DIR}/portalrom-proprietary-files.txt" true
+write_makefiles "${MY_DIR}/portalrom-proprietary-files-vendor.txt" true
 
 # Finish
 write_footers
